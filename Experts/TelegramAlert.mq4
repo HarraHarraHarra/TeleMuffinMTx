@@ -302,7 +302,7 @@ void ProcessTP()
                      sOrderOp,
                      OrderSymbol(),
                      DoubleToString(OrderOpenPrice(), Digits),
-                     DoubleToString(OrderOpenPrice(), Digits),
+                     DoubleToString(OrderClosePrice(), Digits),
                      CalculatePipDifference()
                   );
 
